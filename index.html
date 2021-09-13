@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <h1>Dictionary</h1>
+            </div>
+        </nav>
+        <div class="middle">
+            <h1>Hello there!</h1>
+            <input type="text" placeholder="Enter your word" id="inp">
+            <button onclick="dictionary()">Search</button>
+        </div>
+    </header>
+    <div class="detail">
+        <h1 id="heading"></h1>
+
+        <h2 id="definition"></h2>
+
+        <h2 id="seconddef"></h2>
+        <h1 id="headingex"></h1>
+        <p id="ex"></p>
+        <p id="ex2"></p>
+        <audio controls id="mainAudio">
+            <source src="" type="audio/mpeg" id="audio" >
+          </audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
